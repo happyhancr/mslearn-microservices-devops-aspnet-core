@@ -39,4 +39,4 @@ jobs:
         --set imagePullPolicy=Always 
         --set host=${{ secrets.IP_ADDRESS }} 
         --set protocol=http 
-        './deploy/k8s/helm-simple/coupon'
+        ./deploy/k8s/helm-simple/coupon
