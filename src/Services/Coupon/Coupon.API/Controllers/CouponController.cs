@@ -56,7 +56,7 @@
 
             // Add LogInformation call
             
-            _logger.LogInformation("Applying coupon {CouponCode} - hhhhhh", code);
+            _logger.LogInformation("hhhhh Applying coupon {CouponCode}", code);
 
             return couponDto;
         }
